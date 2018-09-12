@@ -157,7 +157,8 @@ var img2 = document.getElementById("coffe2");
 var img3 = document.getElementById("coffe3");
 var texte = document.getElementById("paraT");
 
-var array
+var tableP = new Array();
+
 img1.onclick = function () {
   img1.style.display = "none";
   texte.innerHTML = "Félicitations, vous avez cliqué sur les 3 images";
@@ -165,6 +166,7 @@ img1.onclick = function () {
 
 img2.onclick = function () {
   img2.style.display = "none";
+  img2.Id = tableP;
 }
 
 img3.onclick = function () {
